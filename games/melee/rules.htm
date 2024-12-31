@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Melee - Card Game Rules</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 1rem;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    p, li {
+      margin-bottom: 0.75rem;
+    }
+    blockquote {
+      background-color: #eee;
+      padding: 0.5rem;
+      border-left: 4px solid #ccc;
+      font-style: italic;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0.5rem 0;
+    }
+    .card-section img {
+      margin-bottom: 0.25rem;
+    }
+    .card-section strong {
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Melee: A Hand-to-Hand Combat Card Game</h1>
+  <blockquote>
+    <strong>me·lee</strong> [mey-ley]<br>
+    noun: a confused hand-to-hand fight or struggle among several people.
+  </blockquote>
+
+  <p>
+    <strong>Melee</strong> is a card game for two or more players where each player controls a character 
+    and tries to survive attacks from opponents. The game borrows elements from martial arts and side-scroller 
+    combat video games, translating them into card-based strikes, blocks, and special moves.
+  </p>
+
+  <hr>
+
+  <h2>Overview</h2>
+  <p>
+    In <strong>Melee</strong>, two or more players can trade blows (via card-play) to damage each other's 
+    characters while protecting their own. Each player tracks their character’s damage on a separate 
+    <em>character sheet</em>. When all the target spots on a character sheet are marked off, that player 
+    is eliminated.
+  </p>
+
+  <p>
+    The last player remaining with unmarked spots on their character sheet wins!
+  </p>
+
+  <h3>Character Sheets</h3>
+  <p>Each player chooses a character sheet with target circles representing health. For example:</p>
+  <p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/9606d6185a5879970f77eb0bf4a3e4334805e01f/design/card-design/export/hit-points-1.png" 
+      alt="Male superhero character sheet showing hit points"
+    >
+  </p>
+  <p>Or:</p>
+  <p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/9606d6185a5879970f77eb0bf4a3e4334805e01f/design/card-design/export/hit-points-2.png" 
+      alt="Female superhero character sheet showing hit points"
+    >
+  </p>
+
+  <hr>
+
+  <h2>Gameplay</h2>
+  <ul>
+    <li><strong>Setup:</strong> Shuffle all <strong>Melee</strong> cards. Deal five cards to each player. Remaining cards form the draw pile.</li>
+    <li><strong>Turn Order:</strong> Choose the youngest player to go first; play proceeds clockwise.</li>
+    <li><strong>Attacking:</strong> On your turn, draw one card from the pile. Then play an <em>attack card</em> (e.g., “Strike Body”) against another player’s character.
+      <ul>
+        <li>If you cannot attack (i.e., you have no valid attack card), you must discard one card and end your turn. Play proceeds to the next player.</li>
+      </ul>
+    </li>
+    <li><strong>Defending:</strong> The attacked player draws a card, then either defends with a matching <em>defense card</em> (e.g., “Shield Body”) or discards a non-defense card and takes the hit, marking off one target circle on their character sheet.</li>
+    <li><strong>Special Defenses:</strong> Some defense cards allow you to immediately counter-attack (“Block and Hit Back,” “Shield and Strike Back,” etc.) or reflect the attack (“I’m Rubber, You’re Glue”).</li>
+    <li><strong>Elimination:</strong> A player is out of the game when all target circles on their character sheet are crossed out.</li>
+    <li><strong>Victory:</strong> The game ends when there is only one player left with uncrossed targets. That player is the winner.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Card Details</h2>
+  <p>
+    A <strong>Melee</strong> deck has 64 cards: attack cards (hitting, striking, shooting), corresponding 
+    defense cards (blocking, shielding, dodging), and special cards.
+  </p>
+
+  <div class="card-section">
+    <h3>Hitting Cards (3 of each)</h3>
+    <p>Think of these as basic melee attacks: punch, hit, slap, kick, etc.</p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0000_hit-head.jpg"
+      alt="Hit head card"
+    >
+    <p><strong>Types:</strong> hit head, hit body, hit legs</p>
+    <p>
+      They can be countered by a <em>block</em> of the matching target:
+    </p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0003_block-head.jpg"
+      alt="Block head card"
+    >
+    <p><strong>Types:</strong> block head, block body, block legs</p>
+    <p>
+      Or by:
+    </p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0020_block-hit-back.jpg"
+      alt="Block and hit back card"
+    >
+    <p><strong>Block and Hit Back</strong> (allows the defender to choose any target on the attacker to hit)</p>
+  </div>
+
+  <div class="card-section">
+    <h3>Striking Cards (3 of each)</h3>
+    <p>These involve weapons like swords, daggers, or pikes.</p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0007_strike-body.jpg"
+      alt="Strike body card"
+    >
+    <p><strong>Types:</strong> strike head, strike body, strike legs</p>
+    <p>
+      They can be countered by a <em>shield</em> of the matching target:
+    </p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0010_shield-body.jpg"
+      alt="Shield body card"
+    >
+    <p><strong>Types:</strong> shield head, shield body, shield legs</p>
+    <p>
+      Or by:
+    </p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0019_shield-strike-back.jpg"
+      alt="Shield and strike back card"
+    >
+    <p><strong>Shield and Strike Back</strong> (allows the defender to choose any target on the attacker to strike)</p>
+  </div>
+
+  <div class="card-section">
+    <h3>Shooting Cards (3 of each)</h3>
+    <p>These represent ranged attacks: guns, lasers, bows/arrows, etc.</p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0014_shoot-legs.jpg"
+      alt="Shoot legs card"
+    >
+    <p><strong>Types:</strong> shoot head, shoot body, shoot legs</p>
+    <p>
+      They can be countered by a <em>dodge</em> of the matching target:
+    </p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0017_dodge-legs.jpg"
+      alt="Dodge legs card"
+    >
+    <p><strong>Types:</strong> dodge head, dodge body, dodge legs</p>
+    <p>
+      Or by:
+    </p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0018_dodge-shoot-back.jpg"
+      alt="Dodge and shoot back card"
+    >
+    <p><strong>Dodge and Shoot Back</strong> (allows the defender to choose any target on the attacker to shoot)</p>
+  </div>
+
+  <div class="card-section">
+    <h3>Special Card (1 per deck)</h3>
+    <p>
+      The <strong>I'm Rubber, You're Glue</strong> card. When played on defense, the attack 
+      automatically bounces back onto the attacker.
+    </p>
+    <img 
+      src="https://bytebucket.org/pushplay_net/melee-public/raw/7443dc1e4aaf7ec30585542b5eea988129d82f84/design/card-design/export/_0021_rubber-glue.jpg"
+      alt="I'm Rubber, You're Glue card"
+    >
+  </div>
+
+  <hr>
+
+  <h2>Ending the Game</h2>
+  <p>
+    A player is out of the game once all targets on their character sheet are marked out. The final player 
+    who still has at least one open target wins the game. 
+  </p>
+
+  <p><em>Enjoy your epic battles in <strong>Melee</strong>! May the best fighter survive.</em></p>
+
+</body>
+</html>

@@ -1,0 +1,513 @@
+{
+  "version_str": "1.0",
+  "metadata": {
+    "game_title_str": "Go Math",
+    "description_str": "A simple math-based card game. Each card is an expression (x+y or x-y) whose result is between 2 and 10, inclusive.",
+    "rules_url": "https://v3rs.us/cards/gomath/rules.htm",
+    "author_str": "Jeffrey Berthiaume",
+    "publisher_str": "Pushplay.net",
+    "release_year_int": 2016,
+    "language_str": "en",
+    "tags_list": [
+      "educational",
+      "math",
+      "go-fish"
+    ],
+    "additional_notes_str": "Collect pairs that match the total you need! 2-4 players. Ages 7+."
+  },
+  "decks_list": [
+    {
+      "deck_name_str": "Go Math Deck",
+      "deck_card_back_url_jpg": "https://v3rs.us/cards/gomath/back/go-math-card-back.jpg",
+      "cards_list": [
+        {
+          "card_id_str": "1+1",
+          "card_name_str": "1+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B1.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "1+2",
+          "card_name_str": "1+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B2.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "1+3",
+          "card_name_str": "1+3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B3.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "1+4",
+          "card_name_str": "1+4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B4.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "1+5",
+          "card_name_str": "1+5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B5.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "1+6",
+          "card_name_str": "1+6",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B6.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "1+7",
+          "card_name_str": "1+7",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B7.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "1+8",
+          "card_name_str": "1+8",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B8.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "1+9",
+          "card_name_str": "1+9",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/1%2B9.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "2+1",
+          "card_name_str": "2+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B1.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "2+2",
+          "card_name_str": "2+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B2.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "2+3",
+          "card_name_str": "2+3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B3.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "2+4",
+          "card_name_str": "2+4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B4.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "2+5",
+          "card_name_str": "2+5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B5.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "2+6",
+          "card_name_str": "2+6",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B6.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "2+7",
+          "card_name_str": "2+7",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B7.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "2+8",
+          "card_name_str": "2+8",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2B8.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "2-1",
+          "card_name_str": "2-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/2%2D1.jpg",
+          "card_description_str": "Value: 1"
+        },
+        {
+          "card_id_str": "3+1",
+          "card_name_str": "3+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2B1.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "3+2",
+          "card_name_str": "3+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2B2.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "3+3",
+          "card_name_str": "3+3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2B3.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "3+4",
+          "card_name_str": "3+4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2B4.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "3+5",
+          "card_name_str": "3+5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2B5.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "3+6",
+          "card_name_str": "3+6",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2B6.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "3+7",
+          "card_name_str": "3+7",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2B7.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "3-1",
+          "card_name_str": "3-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2D1.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "3-2",
+          "card_name_str": "3-2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/3%2D2.jpg",
+          "card_description_str": "Value: 1"
+        },
+        {
+          "card_id_str": "4+1",
+          "card_name_str": "4+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2B1.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "4+2",
+          "card_name_str": "4+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2B2.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "4+3",
+          "card_name_str": "4+3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2B3.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "4+4",
+          "card_name_str": "4+4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2B4.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "4+5",
+          "card_name_str": "4+5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2B5.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "4+6",
+          "card_name_str": "4+6",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2B6.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "4-1",
+          "card_name_str": "4-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2D1.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "4-2",
+          "card_name_str": "4-2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2D2.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "4-3",
+          "card_name_str": "4-3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/4%2D3.jpg",
+          "card_description_str": "Value: 1"
+        },
+        {
+          "card_id_str": "5+1",
+          "card_name_str": "5+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2B1.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "5+2",
+          "card_name_str": "5+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2B2.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "5+3",
+          "card_name_str": "5+3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2B3.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "5+4",
+          "card_name_str": "5+4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2B4.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "5+5",
+          "card_name_str": "5+5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2B5.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "5-1",
+          "card_name_str": "5-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2D1.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "5-2",
+          "card_name_str": "5-2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2D2.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "5-3",
+          "card_name_str": "5-3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2D3.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "5-4",
+          "card_name_str": "5-4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/5%2D4.jpg",
+          "card_description_str": "Value: 1"
+        },
+        {
+          "card_id_str": "6+1",
+          "card_name_str": "6+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2B1.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "6+2",
+          "card_name_str": "6+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2B2.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "6+3",
+          "card_name_str": "6+3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2B3.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "6+4",
+          "card_name_str": "6+4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2B4.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "6-1",
+          "card_name_str": "6-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2D1.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "6-2",
+          "card_name_str": "6-2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2D2.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "6-3",
+          "card_name_str": "6-3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2D3.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "6-4",
+          "card_name_str": "6-4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2D4.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "6-5",
+          "card_name_str": "6-5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/6%2D5.jpg",
+          "card_description_str": "Value: 1"
+        },
+        {
+          "card_id_str": "7+1",
+          "card_name_str": "7+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2B1.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "7+2",
+          "card_name_str": "7+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2B2.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "7+3",
+          "card_name_str": "7+3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2B3.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "7-1",
+          "card_name_str": "7-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2D1.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "7-2",
+          "card_name_str": "7-2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2D2.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "7-3",
+          "card_name_str": "7-3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2D3.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "7-4",
+          "card_name_str": "7-4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2D4.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "7-5",
+          "card_name_str": "7-5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2D5.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "7-6",
+          "card_name_str": "7-6",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/7%2D6.jpg",
+          "card_description_str": "Value: 1"
+        },
+        {
+          "card_id_str": "8+1",
+          "card_name_str": "8+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2B1.jpg",
+          "card_description_str": "Value: 9"
+        },
+        {
+          "card_id_str": "8+2",
+          "card_name_str": "8+2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2B2.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "8-1",
+          "card_name_str": "8-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2D1.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "8-2",
+          "card_name_str": "8-2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2D2.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "8-3",
+          "card_name_str": "8-3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2D3.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "8-4",
+          "card_name_str": "8-4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2D4.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "8-5",
+          "card_name_str": "8-5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2D5.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "8-6",
+          "card_name_str": "8-6",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2D6.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "8-7",
+          "card_name_str": "8-7",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/8%2D7.jpg",
+          "card_description_str": "Value: 1"
+        },
+        {
+          "card_id_str": "9+1",
+          "card_name_str": "9+1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2B1.jpg",
+          "card_description_str": "Value: 10"
+        },
+        {
+          "card_id_str": "9-1",
+          "card_name_str": "9-1",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D1.jpg",
+          "card_description_str": "Value: 8"
+        },
+        {
+          "card_id_str": "9-2",
+          "card_name_str": "9-2",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D2.jpg",
+          "card_description_str": "Value: 7"
+        },
+        {
+          "card_id_str": "9-3",
+          "card_name_str": "9-3",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D3.jpg",
+          "card_description_str": "Value: 6"
+        },
+        {
+          "card_id_str": "9-4",
+          "card_name_str": "9-4",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D4.jpg",
+          "card_description_str": "Value: 5"
+        },
+        {
+          "card_id_str": "9-5",
+          "card_name_str": "9-5",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D5.jpg",
+          "card_description_str": "Value: 4"
+        },
+        {
+          "card_id_str": "9-6",
+          "card_name_str": "9-6",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D6.jpg",
+          "card_description_str": "Value: 3"
+        },
+        {
+          "card_id_str": "9-7",
+          "card_name_str": "9-7",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D7.jpg",
+          "card_description_str": "Value: 2"
+        },
+        {
+          "card_id_str": "9-8",
+          "card_name_str": "9-8",
+          "card_image_url_jpg": "https://v3rs.us/cards/gomath/front/9%2D8.jpg",
+          "card_description_str": "Value: 1"
+        }
+      ]
+    }
+  ],
+  "table_items_list": []
+}

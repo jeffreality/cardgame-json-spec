@@ -1,0 +1,444 @@
+{
+  "version_str": "1.0",
+  
+  "metadata": {
+    "game_title_str": "Melee",
+    "description_str": "A hand-to-hand combat card game for two or more players. Attack, block, or counter to survive!",
+    "rules_url": "https://v3rs.us/cards/melee/rules.htm",
+
+    "author_str": "Jeffrey Berthiaume",
+    "publisher_str": "Pushplay.net",
+    "release_year_int": 2015,
+    
+    "language_str": "en",
+    "tags_list": ["fighting", "combat", "strategy"]
+  },
+
+  "decks_list": [
+    {
+      "deck_name_str": "Melee Core Deck",
+      "deck_card_back_url_jpg": "https://v3rs.us/cards/melee/back/card-back.jpg",
+      "cards_list": [
+        {
+          "card_id_str": "hit-head-01",
+          "card_name_str": "Hit Head-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0000_hit-head.jpg",
+          "card_description_str": "Basic melee attack aimed at the head."
+        },
+        {
+          "card_id_str": "hit-body-01",
+          "card_name_str": "Hit Body-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0001_hit-body.jpg",
+          "card_description_str": "Basic melee attack aimed at the body."
+        },
+        {
+          "card_id_str": "hit-legs-01",
+          "card_name_str": "Hit Legs-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0002_hit-legs.jpg",
+          "card_description_str": "Basic melee attack aimed at the legs."
+        },
+        {
+          "card_id_str": "block-head-01",
+          "card_name_str": "Block Head-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0003_block-head.jpg",
+          "card_description_str": "Defend your head against hitting attacks."
+        },
+        {
+          "card_id_str": "block-body-01",
+          "card_name_str": "Block Body-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0004_block-body.jpg",
+          "card_description_str": "Defend your body against hitting attacks."
+        },
+        {
+          "card_id_str": "block-legs-01",
+          "card_name_str": "Block Legs-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0005_block-legs.jpg",
+          "card_description_str": "Defend your legs against hitting attacks."
+        },
+        {
+          "card_id_str": "strike-head-01",
+          "card_name_str": "Strike Head-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0006_strike-head.jpg",
+          "card_description_str": "Weapon-based attack aimed at the head."
+        },
+        {
+          "card_id_str": "strike-body-01",
+          "card_name_str": "Strike Body-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0007_strike-body.jpg",
+          "card_description_str": "Weapon-based attack aimed at the body."
+        },
+        {
+          "card_id_str": "strike-legs-01",
+          "card_name_str": "Strike Legs-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0008_strike-legs.jpg",
+          "card_description_str": "Weapon-based attack aimed at the legs."
+        },
+        {
+          "card_id_str": "shield-head-01",
+          "card_name_str": "Shield Head-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0009_shield-head.jpg",
+          "card_description_str": "Shield your head from striking attacks."
+        },
+        {
+          "card_id_str": "shield-body-01",
+          "card_name_str": "Shield Body-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0010_shield-body.jpg",
+          "card_description_str": "Shield your body from striking attacks."
+        },
+        {
+          "card_id_str": "shield-legs-01",
+          "card_name_str": "Shield Legs-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0011_shield-legs.jpg",
+          "card_description_str": "Shield your legs from striking attacks."
+        },
+        {
+          "card_id_str": "shoot-head-01",
+          "card_name_str": "Shoot Head-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0012_shoot-head.jpg",
+          "card_description_str": "Ranged attack aimed at the head."
+        },
+        {
+          "card_id_str": "shoot-body-01",
+          "card_name_str": "Shoot Body-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0013_shoot-body.jpg",
+          "card_description_str": "Ranged attack aimed at the body."
+        },
+        {
+          "card_id_str": "shoot-legs-01",
+          "card_name_str": "Shoot Legs-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0014_shoot-legs.jpg",
+          "card_description_str": "Ranged attack aimed at the legs."
+        },
+        {
+          "card_id_str": "dodge-head-01",
+          "card_name_str": "Dodge Head-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0015_dodge-head.jpg",
+          "card_description_str": "Dodge an attack aimed at your head."
+        },
+        {
+          "card_id_str": "dodge-body-01",
+          "card_name_str": "Dodge Body-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0016_dodge-body.jpg",
+          "card_description_str": "Dodge an attack aimed at your body."
+        },
+        {
+          "card_id_str": "dodge-legs-01",
+          "card_name_str": "Dodge Legs-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0017_dodge-legs.jpg",
+          "card_description_str": "Dodge an attack aimed at your legs."
+        },
+        {
+          "card_id_str": "dodge-shoot-back-01",
+          "card_name_str": "Dodge and Shoot Back-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0018_dodge-shoot-back.jpg",
+          "card_description_str": "Dodge a ranged attack and retaliate."
+        },
+        {
+          "card_id_str": "shield-strike-back-01",
+          "card_name_str": "Shield and Strike Back-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0019_shield-strike-back.jpg",
+          "card_description_str": "Shield a weapon attack and retaliate."
+        },
+        {
+          "card_id_str": "block-hit-back-01",
+          "card_name_str": "Block and Hit Back-01",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0020_block-hit-back.jpg",
+          "card_description_str": "Block a melee attack and retaliate."
+        },
+        {
+          "card_id_str": "hit-head-02",
+          "card_name_str": "Hit Head-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0000_hit-head.jpg",
+          "card_description_str": "Basic melee attack aimed at the head."
+        },
+        {
+          "card_id_str": "hit-body-02",
+          "card_name_str": "Hit Body-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0001_hit-body.jpg",
+          "card_description_str": "Basic melee attack aimed at the body."
+        },
+        {
+          "card_id_str": "hit-legs-02",
+          "card_name_str": "Hit Legs-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0002_hit-legs.jpg",
+          "card_description_str": "Basic melee attack aimed at the legs."
+        },
+        {
+          "card_id_str": "block-head-02",
+          "card_name_str": "Block Head-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0003_block-head.jpg",
+          "card_description_str": "Defend your head against hitting attacks."
+        },
+        {
+          "card_id_str": "block-body-02",
+          "card_name_str": "Block Body-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0004_block-body.jpg",
+          "card_description_str": "Defend your body against hitting attacks."
+        },
+        {
+          "card_id_str": "block-legs-02",
+          "card_name_str": "Block Legs-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0005_block-legs.jpg",
+          "card_description_str": "Defend your legs against hitting attacks."
+        },
+        {
+          "card_id_str": "strike-head-02",
+          "card_name_str": "Strike Head-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0006_strike-head.jpg",
+          "card_description_str": "Weapon-based attack aimed at the head."
+        },
+        {
+          "card_id_str": "strike-body-02",
+          "card_name_str": "Strike Body-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0007_strike-body.jpg",
+          "card_description_str": "Weapon-based attack aimed at the body."
+        },
+        {
+          "card_id_str": "strike-legs-02",
+          "card_name_str": "Strike Legs-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0008_strike-legs.jpg",
+          "card_description_str": "Weapon-based attack aimed at the legs."
+        },
+        {
+          "card_id_str": "shield-head-02",
+          "card_name_str": "Shield Head-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0009_shield-head.jpg",
+          "card_description_str": "Shield your head from striking attacks."
+        },
+        {
+          "card_id_str": "shield-body-02",
+          "card_name_str": "Shield Body-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0010_shield-body.jpg",
+          "card_description_str": "Shield your body from striking attacks."
+        },
+        {
+          "card_id_str": "shield-legs-02",
+          "card_name_str": "Shield Legs-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0011_shield-legs.jpg",
+          "card_description_str": "Shield your legs from striking attacks."
+        },
+        {
+          "card_id_str": "shoot-head-02",
+          "card_name_str": "Shoot Head-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0012_shoot-head.jpg",
+          "card_description_str": "Ranged attack aimed at the head."
+        },
+        {
+          "card_id_str": "shoot-body-02",
+          "card_name_str": "Shoot Body-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0013_shoot-body.jpg",
+          "card_description_str": "Ranged attack aimed at the body."
+        },
+        {
+          "card_id_str": "shoot-legs-02",
+          "card_name_str": "Shoot Legs-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0014_shoot-legs.jpg",
+          "card_description_str": "Ranged attack aimed at the legs."
+        },
+        {
+          "card_id_str": "dodge-head-02",
+          "card_name_str": "Dodge Head-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0015_dodge-head.jpg",
+          "card_description_str": "Dodge an attack aimed at your head."
+        },
+        {
+          "card_id_str": "dodge-body-02",
+          "card_name_str": "Dodge Body-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0016_dodge-body.jpg",
+          "card_description_str": "Dodge an attack aimed at your body."
+        },
+        {
+          "card_id_str": "dodge-legs-02",
+          "card_name_str": "Dodge Legs-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0017_dodge-legs.jpg",
+          "card_description_str": "Dodge an attack aimed at your legs."
+        },
+        {
+          "card_id_str": "dodge-shoot-back-02",
+          "card_name_str": "Dodge and Shoot Back-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0018_dodge-shoot-back.jpg",
+          "card_description_str": "Dodge a ranged attack and retaliate."
+        },
+        {
+          "card_id_str": "shield-strike-back-02",
+          "card_name_str": "Shield and Strike Back-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0019_shield-strike-back.jpg",
+          "card_description_str": "Shield a weapon attack and retaliate."
+        },
+        {
+          "card_id_str": "block-hit-back-02",
+          "card_name_str": "Block and Hit Back-02",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0020_block-hit-back.jpg",
+          "card_description_str": "Block a melee attack and retaliate."
+        },
+        {
+          "card_id_str": "hit-head-03",
+          "card_name_str": "Hit Head-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0000_hit-head.jpg",
+          "card_description_str": "Basic melee attack aimed at the head."
+        },
+        {
+          "card_id_str": "hit-body-03",
+          "card_name_str": "Hit Body-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0001_hit-body.jpg",
+          "card_description_str": "Basic melee attack aimed at the body."
+        },
+        {
+          "card_id_str": "hit-legs-03",
+          "card_name_str": "Hit Legs-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0002_hit-legs.jpg",
+          "card_description_str": "Basic melee attack aimed at the legs."
+        },
+        {
+          "card_id_str": "block-head-03",
+          "card_name_str": "Block Head-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0003_block-head.jpg",
+          "card_description_str": "Defend your head against hitting attacks."
+        },
+        {
+          "card_id_str": "block-body-03",
+          "card_name_str": "Block Body-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0004_block-body.jpg",
+          "card_description_str": "Defend your body against hitting attacks."
+        },
+        {
+          "card_id_str": "block-legs-03",
+          "card_name_str": "Block Legs-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0005_block-legs.jpg",
+          "card_description_str": "Defend your legs against hitting attacks."
+        },
+        {
+          "card_id_str": "strike-head-03",
+          "card_name_str": "Strike Head-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0006_strike-head.jpg",
+          "card_description_str": "Weapon-based attack aimed at the head."
+        },
+        {
+          "card_id_str": "strike-body-03",
+          "card_name_str": "Strike Body-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0007_strike-body.jpg",
+          "card_description_str": "Weapon-based attack aimed at the body."
+        },
+        {
+          "card_id_str": "strike-legs-03",
+          "card_name_str": "Strike Legs-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0008_strike-legs.jpg",
+          "card_description_str": "Weapon-based attack aimed at the legs."
+        },
+        {
+          "card_id_str": "shield-head-03",
+          "card_name_str": "Shield Head-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0009_shield-head.jpg",
+          "card_description_str": "Shield your head from striking attacks."
+        },
+        {
+          "card_id_str": "shield-body-03",
+          "card_name_str": "Shield Body-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0010_shield-body.jpg",
+          "card_description_str": "Shield your body from striking attacks."
+        },
+        {
+          "card_id_str": "shield-legs-03",
+          "card_name_str": "Shield Legs-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0011_shield-legs.jpg",
+          "card_description_str": "Shield your legs from striking attacks."
+        },
+        {
+          "card_id_str": "shoot-head-03",
+          "card_name_str": "Shoot Head-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0012_shoot-head.jpg",
+          "card_description_str": "Ranged attack aimed at the head."
+        },
+        {
+          "card_id_str": "shoot-body-03",
+          "card_name_str": "Shoot Body-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0013_shoot-body.jpg",
+          "card_description_str": "Ranged attack aimed at the body."
+        },
+        {
+          "card_id_str": "shoot-legs-03",
+          "card_name_str": "Shoot Legs-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0014_shoot-legs.jpg",
+          "card_description_str": "Ranged attack aimed at the legs."
+        },
+        {
+          "card_id_str": "dodge-head-03",
+          "card_name_str": "Dodge Head-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0015_dodge-head.jpg",
+          "card_description_str": "Dodge an attack aimed at your head."
+        },
+        {
+          "card_id_str": "dodge-body-03",
+          "card_name_str": "Dodge Body-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0016_dodge-body.jpg",
+          "card_description_str": "Dodge an attack aimed at your body."
+        },
+        {
+          "card_id_str": "dodge-legs-03",
+          "card_name_str": "Dodge Legs-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0017_dodge-legs.jpg",
+          "card_description_str": "Dodge an attack aimed at your legs."
+        },
+        {
+          "card_id_str": "dodge-shoot-back-03",
+          "card_name_str": "Dodge and Shoot Back-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0018_dodge-shoot-back.jpg",
+          "card_description_str": "Dodge a ranged attack and retaliate."
+        },
+        {
+          "card_id_str": "shield-strike-back-03",
+          "card_name_str": "Shield and Strike Back-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0019_shield-strike-back.jpg",
+          "card_description_str": "Shield a weapon attack and retaliate."
+        },
+        {
+          "card_id_str": "block-hit-back-03",
+          "card_name_str": "Block and Hit Back-03",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0020_block-hit-back.jpg",
+          "card_description_str": "Block a melee attack and retaliate."
+        },
+        {
+          "card_id_str": "rubber-glue",
+          "card_name_str": "I'm Rubber, You're Glue",
+          "card_image_url_jpg": "https://v3rs.us/cards/melee/front/_0021_rubber-glue.jpg",
+          "card_description_str": "Reflect the attack back onto the attacker."
+        }
+      ]
+    }
+  ],
+
+  "table_items_list": [
+    {
+      "item_name_str": "Armor",
+      "item_png": "https://v3rs.us/cards/melee/items/armor.png"
+    },
+    {
+      "item_name_str": "Bulk",
+      "item_png": "https://v3rs.us/cards/melee/items/bulk.png"
+    },
+    {
+      "item_name_str": "Hero",
+      "item_png": "https://v3rs.us/cards/melee/items/hero.png"
+    },
+    {
+      "item_name_str": "Heroine",
+      "item_png": "https://v3rs.us/cards/melee/items/heroine.png"
+    },
+    {
+      "item_name_str": "Ogre",
+      "item_png": "https://v3rs.us/cards/melee/items/ogre.png"
+    },
+    {
+      "item_name_str": "Robot",
+      "item_png": "https://v3rs.us/cards/melee/items/robot.png"
+    },
+    {
+      "item_name_str": "Samurai",
+      "item_png": "https://v3rs.us/cards/melee/items/samurai.png"
+    },
+    {
+      "item_name_str": "Wizard",
+      "item_png": "https://v3rs.us/cards/melee/items/wizard.png"
+    }
+  ]
+}
